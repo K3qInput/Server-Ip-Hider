@@ -55,6 +55,14 @@ This repository provides the necessary instructions and configuration files to s
 - Start your Minecraft server as usual.
 - Players can connect using the NeoProtect IP or domain for Java Edition, and Bedrock players can connect via the specified Bedrock port.
 
+  
+ ### Choose a Server IP Hider Plugin
+There are several plugins available that can block or modify server ping queries:
+
+ServerListPlus: Allows you to customize the server ping response, including hiding the server IP or returning a fake one.
+PingLimiter: Limits the number of ping requests a player can make, which can help reduce the visibility of your server.
+AntiBotDeluxe: Provides advanced protections including blocking ping queries as part of its features.
+
 ### 6. Testing the Setup
 
 - Verify that both Java and Bedrock clients can connect to the server.
